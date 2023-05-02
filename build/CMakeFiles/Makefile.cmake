@@ -11,6 +11,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeFiles/3.26.3/CMakeCCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.26.3/CMakeSystem.cmake"
+  "/home/rishi-debian/github.com/rishiagl/learning-cmake/hello-exe/CMakeLists.txt"
+  "/home/rishi-debian/github.com/rishiagl/learning-cmake/say-hello/CMakeLists.txt"
   "/usr/local/share/cmake-3.26/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake-3.26/Modules/CMakeCXXInformation.cmake"
   "/usr/local/share/cmake-3.26/Modules/CMakeCommonLanguageInclude.cmake"
@@ -39,10 +41,12 @@ set(CMAKE_MAKEFILE_OUTPUTS
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
   "CMakeFiles/CMakeDirectoryInformation.cmake"
+  "say-hello/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "hello-exe/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/say_hello.dir/DependInfo.cmake"
-  "CMakeFiles/cmake-good.dir/DependInfo.cmake"
+  "say-hello/CMakeFiles/say-hello.dir/DependInfo.cmake"
+  "hello-exe/CMakeFiles/cmake-good.dir/DependInfo.cmake"
   )
