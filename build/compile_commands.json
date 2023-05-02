@@ -1,0 +1,14 @@
+[
+{
+  "directory": "/home/rishi-debian/github.com/rishiagl/learning-cmake/build/say-hello",
+  "command": "/usr/bin/g++ -DSAY_HELLO_VERSION=8 -Dsay_hello_EXPORTS -I/home/rishi-debian/github.com/rishiagl/learning-cmake/say-hello/src -g -fPIC -o CMakeFiles/say-hello.dir/src/say-hello/hello.cpp.o -c /home/rishi-debian/github.com/rishiagl/learning-cmake/say-hello/src/say-hello/hello.cpp",
+  "file": "/home/rishi-debian/github.com/rishiagl/learning-cmake/say-hello/src/say-hello/hello.cpp",
+  "output": "say-hello/CMakeFiles/say-hello.dir/src/say-hello/hello.cpp.o"
+},
+{
+  "directory": "/home/rishi-debian/github.com/rishiagl/learning-cmake/build/hello-exe",
+  "command": "/usr/bin/g++ -DSAY_HELLO_VERSION=8 -I/home/rishi-debian/github.com/rishiagl/learning-cmake/say-hello/src -g -o CMakeFiles/cmake-good.dir/main.cpp.o -c /home/rishi-debian/github.com/rishiagl/learning-cmake/hello-exe/main.cpp",
+  "file": "/home/rishi-debian/github.com/rishiagl/learning-cmake/hello-exe/main.cpp",
+  "output": "hello-exe/CMakeFiles/cmake-good.dir/main.cpp.o"
+}
+]
