@@ -1,0 +1,2 @@
+/home/rishi-debian/github.com/rishiagl/learning-cmake/build/CMakeFiles/edit_cache.dir
+/home/rishi-debian/github.com/rishiagl/learning-cmake/build/CMakeFiles/rebuild_cache.dir
