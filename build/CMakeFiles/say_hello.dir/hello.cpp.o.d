@@ -1,6 +1,8 @@
-CMakeFiles/cmake-good.dir/main.cpp.o: \
- /home/rishi-debian/github.com/rishiagl/learning-cmake/main.cpp \
- /usr/include/stdc-predef.h /usr/include/c++/10/iostream \
+CMakeFiles/say_hello.dir/hello.cpp.o: \
+ /home/rishi-debian/github.com/rishiagl/learning-cmake/hello.cpp \
+ /usr/include/stdc-predef.h \
+ /home/rishi-debian/github.com/rishiagl/learning-cmake/hello.hpp \
+ /usr/include/c++/10/iostream \
  /usr/include/x86_64-linux-gnu/c++/10/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/10/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -140,5 +142,4 @@ CMakeFiles/cmake-good.dir/main.cpp.o: \
  /usr/include/c++/10/bits/locale_facets.tcc \
  /usr/include/c++/10/bits/basic_ios.tcc \
  /usr/include/c++/10/bits/ostream.tcc /usr/include/c++/10/istream \
- /usr/include/c++/10/bits/istream.tcc \
- /home/rishi-debian/github.com/rishiagl/learning-cmake/hello.hpp
+ /usr/include/c++/10/bits/istream.tcc

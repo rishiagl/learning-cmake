@@ -43,5 +43,6 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/say_hello.dir/DependInfo.cmake"
   "CMakeFiles/cmake-good.dir/DependInfo.cmake"
   )

@@ -92,6 +92,7 @@ cmake__good_EXTERNAL_OBJECTS =
 
 cmake-good: CMakeFiles/cmake-good.dir/main.cpp.o
 cmake-good: CMakeFiles/cmake-good.dir/build.make
+cmake-good: libsay_hello.so
 cmake-good: CMakeFiles/cmake-good.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/rishi-debian/github.com/rishiagl/learning-cmake/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cmake-good"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cmake-good.dir/link.txt --verbose=$(VERBOSE)
