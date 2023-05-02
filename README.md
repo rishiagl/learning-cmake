@@ -44,3 +44,25 @@ It may seem basic, but I hope to always touch on aspects of CMake that aren't co
 No addenda or errata yet. This video is flawless and perfect.
 
 If you experience any disorientation while viewing, remove your 3D glasses and close your eyes until you feel well again.
+
+### 1b:
+
+**Adding a Library**
+Last time we created an executable, but you might also want to make some libraries! I'll show how you can make a library and how you can control what type of library is generated, as well as how we can link that library into an executable.
+
+Addendum: I didn't touch on MODULE libraries much, only briefly mentioning them. In general, they are used to represent "plugins" for other software. It will manifest itself as a shared library but cannot be linked into other libraries. They're not as common to see.
+
+WARNING: This video contains chemicals known to the State of California to cause cancer and birth defects or other reproductive harm.
+
+### 1c:
+
+**Subdirectories and Target Interface Properties**
+
+You probably don't want a single flat project structure, especially if you have many files and targets. You'll also want to tag "usage requirements" to libraries so that only the consumers receive the proper preprocessor definitions/include paths. That's what this video focuses on.
+
+When typing the include path I say ".cpp" instead of ".hpp", which is wrong, of course, but not overly upsetting.
+
+I also tried a slower, more stream-of-consciousness approach to this video. Of course I've removed periods of silence where I think about what to say next, but I think it came out pretty good and flows nicely. Tell me what you think!
+
+This video description guaranteed to contain 5% fewer witty remarks than usual. Made from $100% mental concentration.
+
