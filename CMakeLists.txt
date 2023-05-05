@@ -4,13 +4,16 @@ project(MyProject VERSION 1.0.0)
 add_subdirectory(say-hello)
 add_subdirectory(hello-exe)
 
-set(my_list 1 2 3)
-set(target DIRECTORY "${PROJECT_SOURCE_DIR}")
-set_property(
-    ${target}
-    PROPERTY FOO
-    "${my_list}"
-)
+function(do_cmake_good first second third)
+    #for all arguments which are not bound to any variable
+    foreach(arg IN LISTS ARGN)
+        message(STATUS "Got ARGN argument: ${arg}")
+    endforeach()
+    #for all arguments whether they are bound to a variable or nothing
+    foreach(arg IN LISTS ARGV)
+        message(STATUS "Got ARGV argument: ${arg}")
+    endforeach()
+endfunction()
 
-get_property(foo_value ${target} PROPERTY FOO)
-message(STATUS "Value of FOO is ${foo_value}")
+do_cmake_good(1 2 3 4 5 6 7 8)
+
