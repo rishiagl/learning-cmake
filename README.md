@@ -66,3 +66,15 @@ I also tried a slower, more stream-of-consciousness approach to this video. Of c
 
 This video description guaranteed to contain 5% fewer witty remarks than usual. Made from $100% mental concentration.
 
+### 2a:
+
+***Scripting Basics***
+
+CMake is controlled via a simple (also simplistic) scripting language. Understanding the language is essential for understanding how to make effective use of CMake as a build and project management tool.
+
+A few things to clarify: Quotes are REQUIRED around literal arguments that contain whitespace, otherwise each whitespace will be treated as argument separators to a command. Only double quotes are accepted as real quotes. Single quotes are treated like literal single quote characters.
+
+The CMake scripting language reference: https://cmake.org/cmake/help/latest/m...
+
+No animals were harmed in the creation of this video tutorial.
+
