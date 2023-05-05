@@ -78,3 +78,16 @@ The CMake scripting language reference: https://cmake.org/cmake/help/latest/m...
 
 No animals were harmed in the creation of this video tutorial.
 
+### 2b:
+***Control Flow and Auto-dereferencing***
+
+Of course a scripting language has conditionals and control flow! I'll also address auto-dereferencing in conditionals: Something that every CMake user MUST be aware of.
+
+The CMake if() command: https://cmake.org/cmake/help/latest/c...
+
+All conditions to if() are also valid in elseif() and while().
+
+No issues in this video. Immaculate, in fact.
+
+This is an eight minute video to explain conditional branches and loops aimed at people who already understand programming. Maybe the CMake language has a problem...
+
