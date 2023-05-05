@@ -79,6 +79,7 @@ The CMake scripting language reference: https://cmake.org/cmake/help/latest/m...
 No animals were harmed in the creation of this video tutorial.
 
 ### 2b:
+
 ***Control Flow and Auto-dereferencing***
 
 Of course a scripting language has conditionals and control flow! I'll also address auto-dereferencing in conditionals: Something that every CMake user MUST be aware of.
@@ -90,4 +91,33 @@ All conditions to if() are also valid in elseif() and while().
 No issues in this video. Immaculate, in fact.
 
 This is an eight minute video to explain conditional branches and loops aimed at people who already understand programming. Maybe the CMake language has a problem...
+
+### 2c:
+
+***Functions, Scopes, Arguments, and List Expansion***
+
+This video is a bit longer than usual, but it covers a lot of important topics for CMake scripting. The scripting language can be confusing for those unfamiliar with just how simplistic it really is.
+
+The video covers several topics, so here's some timestamps for each part:
+
+00:12 - Arguments to commands are just a sequence of strings. Always. There is no other syntax. No keywords. No magic.
+02:41 - Argument list expansion is essential to understand. This is where quoted vs unquoted variable references become important. It won't bite you if you know when to expect it. It can be your friend.
+05:54 - Defining your own functions. It's not hard, and you can make powerful functionality using CMake scripts on their own! Functions are key. Know the difference between ARGN and ARGV.
+09:14 - Variable scopes. This can trip people up when they aren't expecting it. Functions receive their own variable scope. include() and macro() do not. Know this, and how to manipulate your parent scope to return values to them.
+11:51 - CMake output parameters and "indirection" through variable name arguments. Essential for any CMake scripting magic. Builds upon knowledge of scopes.
+
+I purposefully omitted discussion of macro(). It's a very sharp tool that must be used with care, and is rarely needed. You can almost always get away with function() instead. Prefer it.
+
+I've been told to increase the font size on my screen, so I've inflated VSCode to pretty large proportions. Tell me how it looks in the comments!
+
+No errata for this one. It's a masterpiece, truly.
+
+Documentation about set(), discussing PARENT_SCOPE: https://cmake.org/cmake/help/latest/c...
+
+Documentation about unquoted arguments (covering list expansion): https://cmake.org/cmake/help/latest/m...
+
+Documentation on variables and scopes: https://cmake.org/cmake/help/latest/m...
+
+This video has no quip in its description - The Sign Painter
+
 
