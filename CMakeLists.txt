@@ -4,10 +4,13 @@ project(MyProject VERSION 1.0.0)
 add_subdirectory(say-hello)
 add_subdirectory(hello-exe)
 
-set(MY_STRING "This is a string")
-set(MY_OTHER_STRING "This is a string")
-set(my_value 4)
+set(my_list 1 2 3)
+set(target DIRECTORY "${PROJECT_SOURCE_DIR}")
+set_property(
+    ${target}
+    PROPERTY FOO
+    "${my_list}"
+)
 
-foreach(idx RANGE 0 99 5)
-    message(STATUS "Index is: ${idx}")
-endforeach()
+get_property(foo_value ${target} PROPERTY FOO)
+message(STATUS "Value of FOO is ${foo_value}")
